@@ -12,11 +12,13 @@
 <body>
     <header>
         <nav class="header-menu">
-            <h2 class="header-h2"><strong>IA</strong>al día</h2>
+            <a href="index.html">
+                <h2 class="header-h2"><strong>IA</strong>al día</h2>
+            </a>
             <ul class="header-ul">
-                <li><a href="#">APLICACIONES</a></li>
+                <li><a href="aplicaciones.html">APLICACIONES</a></li>
                 <li><a href="#">NOTICIAS</a></li>
-                <li><a href="#">EN EL CINE</a></li>
+                <li><a href="enElCine.html">EN EL CINE</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +29,7 @@
             <!--Imagen de fondo-->
         </div>
         <section class="index-section-que-es-la-ia">
-            <h2>¿Qué es IA al día?</h2>
+            <h2>¿Qué es <abbr title="Inteligencia Artificial">IA</abbr> al día?</h2>
             <p>
                 La inteligencia artificial es la disciplina de las ciencias de la computación que tiene como propósito
                 crear máquinas que
@@ -43,42 +45,46 @@
             <h2>Al día</h2>
 
             <article class="card-noticia">
-                <img src="./img/n-geoffrey-hinton.jpg" alt="Ilustración de androide representativo de la IA">
-                <p class="fecha"><time datetime="2023-05-02">02-05-2023</time></p>
-                <h3 class="titulo-card-noticia">Geoffrey Hinton advierte de los peligros de la IA</h3>
-                <p class="descripcion-card">
-                    Geoffrey Hinton, uno de los pioneros de la inteligencia artificial, se une a las voces críticas que alertan sobre los peligros de la IA y defiende que los científicos deben colaborar en el control de esta tecnología…
-                </p>
-                <div class="card-link">
-                    <a href="#">LEER MÁS</a>
-                </div>
-            </article>
+                <article class="card-noticia">
+                    <img src="./img/n-ue-ia.jpg" alt="Hemiciclo del Parlamento Europeo en Bruselas">
+                    <header>
+                        <p class="fecha"><time datetime="2023-04-20">20-04-2023</time></p>
+                        <h3 class="titulo-card-noticia">
+                            <a href="#">Bruselas prepara la ley de IA para regular su avance</a>
+                        </h3>
+                    </header>
 
-            <article class="card-noticia">
-                <img src="./img/n-ue-ia.jpg" alt="Imagen del parlamento Europeo">
-                <p class="fecha"><time datetime="2023-04-20">20-04-2023</time></p>
-                <h3 class="titulo-card-noticia">Bruselas prepara la ley de IA para regular su avance</h3>
-                <p class="descripcion-card">
-                    Una propuesta de ley de Inteligencia Artificial se está negociando en estos momentos en el Parlamento Europeo. La ley pretende proteger a los consumidores que usen o sean objeto de sistemas de IA…
-                </p>
-                <div class="card-link">                    
-                    <a href="">LEER MÁS</a>
-                </div>
+                    <p class="descripcion-card">
+                        Una propuesta de ley de Inteligencia Artificial se está negociando en estos momentos en el
+                        Parlamento Europeo.
+                        La ley pretende proteger a los consumidores que usen o sean objeto de sistemas de IA…
+                    </p>
 
-            </article>
+                    <footer class="card-link">
+                        <a href="#">LEER MÁS</a>
+                    </footer>
+                </article>
 
-            <article class="card-noticia">
-                <img src="./img/n-despacho42.jpg" alt="Imagen abstracta concptual">
-                <p class="fecha"><time datetime="2023-02-23">23-02-2023</time></p>
-                <h3 class="titulo-card-noticia">Despacho 42: Inteligencia artificial y arte</h3>
-                <p class="descripcion-card">
-                    En el podcast Despacho 42 de 23 de febrero, el profesor César Córcoles y la profesora Susanna Tesconi conversan sobre IA y arte con Andrés Burbano, profesor de los estudios de Artes y Humanidades de la UOC…
-                </p>
-                <div class="card-link">
-                    <a href="#">LEER MÁS</a>
-                </div>
+                <article class="card-noticia">
+                    <img src="./img/n-despacho42.jpg" alt="Ilustración conceptual sobre inteligencia artificial y arte">
+                    <header>
+                        <p class="fecha"><time datetime="2023-02-23">23-02-2023</time></p>
+                        <h3 class="titulo-card-noticia">
+                            <a href="#">Despacho 42: Inteligencia artificial y arte</a>
+                        </h3>
+                    </header>
 
-            </article>
+                    <p class="descripcion-card">
+                        En el podcast Despacho 42 de 23 de febrero, el profesor César Córcoles y la profesora Susanna
+                        Tesconi conversan
+                        sobre IA y arte con Andrés Burbano, profesor de los estudios de Artes y Humanidades de la UOC…
+                    </p>
+
+                    <footer class="card-link">
+                        <a href="#">LEER MÁS</a>
+                    </footer>
+                </article>
+
         </section>
 
     </main>
@@ -94,7 +100,7 @@
                 <a href="#">
                     <img src="./img/twitter.svg" alt="Twitter">
                 </a>
-                <a href="#" >
+                <a href="#">
                     <img src="./img/instagram.svg" alt="Instagram">
                 </a>
                 <a href="#">
@@ -104,7 +110,8 @@
             <div class="footer-div-creditos">
                 <p>
                     <small><time datetime="2023">2023</time> &copy; IA al día
-                </small></p>
+                    </small>
+                </p>
                 <p>
                     <small>Actividad realizada por Roberto Amorós Linares</small>
                 </p>
@@ -112,4 +119,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
